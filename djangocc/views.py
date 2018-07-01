@@ -4,5 +4,9 @@ def home(request):
     '''
     Renders home page
     '''
-    context = {} #just an empty dictionary
-    return render(request, 'home.html', context=None)
+    greeting = "uStudy - the best study site in the world"
+    today = 'tuesday'
+
+    context = {'our_greeting':greeting, 'day_of_week':today} #just an empty dictionary
+
+    return render(request, 'home.html', context)
