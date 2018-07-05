@@ -1,12 +1,14 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>uStudy</title>
-    </head>
-    <body>
-        <div id="container">
-            <h1>Welcome to {{ our_greeting | title }}!</h1>
-            <h4>{{ day_of_week }}</h4>
-        </div>
-    </body>
-</html>
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="homepage-content">
+    <div class="homepage-banner">
+        <h1>uStudy</h1>
+        <hr>
+        <h4>Harness the Power of U</h4>
+        <a class= 'button' href="admin">Get started</a>
+    </div>
+</div>
+
+{% endblock %}

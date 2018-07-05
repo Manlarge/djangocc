@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+}
+
+nav {
+    background: #d0f1be;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.25em;
+    padding: 10px   ;
+}
+
+.homepage-content{
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.homepage-banner{
+    text-align: center;
+    color: #648e2c;
+    font-size: 2em;
+    max-width: 100%;
+}
+
+.button{
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
