@@ -21,5 +21,5 @@ from . import views
 urlpatterns = [
     url(r'^$', views.home, name='home'),
     url(r'^admin/', admin.site.urls),
-    url(r'^flashcards', include('flashcards.urls', namespace='flashcards')),
+    url(r'^flashcards/', include('flashcards.urls', namespace='flashcards')),
 ]
